@@ -5,5 +5,14 @@ class Street:
         self.name = name
         self.time_to_cross = time_to_cross
 
+            
+
+
+def get_perfect_time(streets):
+    perfect_time = 0
+    for street in streets[1:]:
+        perfect_time += street.time_to_cross
+
+    return perfect_time
 
 
