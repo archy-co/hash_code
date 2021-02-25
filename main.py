@@ -26,4 +26,5 @@ def solve(input_path, output_path):
 
         for intersection_info in intersections_infos:
             # TODO: implement output info for a schedule
+            pass
     
