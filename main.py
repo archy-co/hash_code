@@ -39,4 +39,9 @@ def solve(input_path, output_path):
 
 
 if __name__ == "__main__":
+    solve("a.txt", 'out_a.txt')
     solve("b.txt", 'out_b.txt')
+    solve("c.txt", 'out_c.txt')
+    solve("d.txt", 'out_d.txt')
+    solve("e.txt", 'out_e.txt')
+    solve("f.txt", 'out_f.txt')
