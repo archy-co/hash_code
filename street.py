@@ -1,12 +1,11 @@
 class Street:
-    def __init__(self, start, end, name, time_to_cross, queue_length=0):
+    def __init__(self, start, end, name, time_to_cross, queue):
         self.start = start
         self.end = end
         self.name = name
         self.time_to_cross = time_to_cross
-        self.queue_length = queue_length
+        self.queue = queue
 
-            
 
 
 def get_perfect_time(streets):
