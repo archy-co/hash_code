@@ -1,5 +1,5 @@
 class Street:
-    def __init__(self, start, end, name, time_to_cross, queue):
+    def __init__(self, start, end, name, time_to_cross, queue=None):
         self.start = start
         self.end = end
         self.name = name
